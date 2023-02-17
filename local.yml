@@ -1,5 +1,5 @@
 ---
-- hosts: server
+- hosts: ansibleclient.server
   become: true
   tasks:
   - name: Install Apache
